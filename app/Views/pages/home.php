@@ -1,15 +1,15 @@
 <?= $this->extend('layout/template'); ?>
 
-    <?= $this->section('content'); ?>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Welcome to IoT Pages!!</h1>
+<?= $this->section('content'); ?>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Welcome to My pages!</h1>
 
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
 
 
-        <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>
